@@ -1,0 +1,20 @@
+html,body{
+	height: 100%;
+}
+body{
+	/* background: lightblue; */
+	align-items: center;
+	background: linear-gradient(#F01919,#190909);
+	display: flex;
+}
+.caja{
+	background:  blue;
+	border-radius: 50%;
+	box-shadow: 0.5em 0.5em 0.5em rgba(0,0,0,0.5);
+	height: 400px;
+	margin: 0 auto;
+	width:  40%;
+}
+.caja:hover{
+	cursor: pointer;
+}
